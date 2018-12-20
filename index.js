@@ -20,7 +20,13 @@ function distanceFromHqInFeet(customers_block) {
   return ftFromHQ
 }
 
-function distanceTravelledInFeet() {
+function distanceTravelledInFeet(start, finish) {
+  let blocksTraveled = start - finish
+  let ftTraveled = blocksTraveled * 264
+  if (ftTraveled < 0) {
+    ftTraveled =- ftTraveled 
+  }
+  return ftTraveled
 }
 
 function calculatesFarePrice(start, destination) {
