@@ -14,7 +14,10 @@ function distanceFromHqInBlocks(customers_block) {
   return distFromHQ
 }
 
-function distanceFromHqInFeet() {
+function distanceFromHqInFeet(customers_block) {
+  let blocksFromHQ = distanceFromHqInBlocks(customers_block);
+  let ftFromHQ = blocksFromHQ * 264
+  
 }
 
 function distanceTravelledInFeet() {
