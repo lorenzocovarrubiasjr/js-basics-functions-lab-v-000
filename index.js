@@ -14,7 +14,10 @@ function distanceFromHqInBlocks(customers_block) {
   return distFromHQ
 }
 
-distanceFromHqInFeet()
+function distanceFromHqInFeet() {
+
+  
+}
 
 distanceTravelledInFeet()
 
