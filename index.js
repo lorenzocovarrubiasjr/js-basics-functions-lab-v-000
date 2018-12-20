@@ -15,16 +15,13 @@ function distanceFromHqInBlocks(customers_block) {
 }
 
 function distanceFromHqInFeet() {
-
-
 }
 
 funtcion distanceTravelledInFeet() {
-
-
 }
 
 function calculatesFarePrice(start, destination) {
-
   
 }
+
+
