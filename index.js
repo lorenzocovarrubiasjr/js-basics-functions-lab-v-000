@@ -11,7 +11,7 @@ function distanceFromHqInBlocks(customers_block) {
   else {
     distFromHQ = 0
   }
-  distFromHQ 
+  return distFromHQ
 }
 
 distanceFromHqInFeet()
@@ -19,4 +19,3 @@ distanceFromHqInFeet()
 distanceTravelledInFeet()
 
 calculatesFarePrice(start, destination)
-
