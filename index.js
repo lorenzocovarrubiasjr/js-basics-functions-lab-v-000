@@ -24,11 +24,26 @@ function distanceTravelledInFeet(start, finish) {
   let blocksTraveled = start - finish
   let ftTraveled = blocksTraveled * 264
   if (ftTraveled < 0) {
-    ftTraveled =- ftTraveled 
+    ftTraveled =- ftTraveled
   }
   return ftTraveled
 }
 
 function calculatesFarePrice(start, destination) {
-
+  let distanceTraveled = distanceTravelledInFeet(start, destination);
+  let farePrice = 0;
+  if (distanceTraveled <= 400){
+    return farePrice
+  }
+  else if (distanceTraveled > 400 && distanceTraveled < 2000) {
+    farePrice = distanceTraveled * 0.02
+    return farePrice
+  }
+  else if (distanceTraveled > 2000 && distanceTraveled <= 2500) {
+    farePrice = 25
+    return farePrice
+  }
+  else {
+    return 'cannot travel that far'
+  }
 }
