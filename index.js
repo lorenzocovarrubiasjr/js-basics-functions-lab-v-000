@@ -17,11 +17,9 @@ function distanceFromHqInBlocks(customers_block) {
 function distanceFromHqInFeet() {
 }
 
-funtcion distanceTravelledInFeet() {
+function distanceTravelledInFeet() {
 }
 
 function calculatesFarePrice(start, destination) {
-  
+
 }
-
-
